@@ -100,7 +100,7 @@
 (define-minor-mode extra-letter-cases-minor-mode
   "Toggle extra-letter-cases minor mode."
   ;; The initial value.
-  :init-value nil
+  :init-value t
   ;; The indicator for the mode line.
   :lighter " excases"
   ;; The minor mode bindings.
