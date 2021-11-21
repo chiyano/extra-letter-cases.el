@@ -106,7 +106,7 @@
   ;; The minor mode bindings.
   :keymap
   (let ((map (make-sparse-keymap)))
-    (define-key map (kbd "M-p") 'camelize-word)
+    (define-key map (kbd "M-s-p") 'camelize-word)
     (define-key map (kbd "M-[") 'snakify-word)
     (define-key map (kbd "M-{") 'spinalize-word)
     map))
